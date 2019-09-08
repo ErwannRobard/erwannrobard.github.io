@@ -1,0 +1,42 @@
+body {
+    font-weight:400;
+    font-size:1em;
+    line-height:1.4;
+    font-family: Arial;
+    background-color:#696969;
+}
+#site #header{
+    width: 100%;
+    clear: both;
+}
+.main-menu {
+    text-align: center;
+    padding: 0;
+    width: 60%;
+    min-width: 605px;
+    margin: 0 auto;
+    z-index: 9;
+    position: relative;
+}
+.main-menu a{
+    color:mediumaquamarine;
+    outline-color:red;
+}
+.wrapper {
+    width:100%;
+    float:left;
+    clear:both;
+    min-width: 320px;
+}
+.top-nav {
+    position: relative;
+    border-bottom: 4px solid #dedede;
+    padding: 24px 20px 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    z-index: 990;
+}
+.top-nav ul li {
+    display:inline-block;
+    position:relative;
+}
